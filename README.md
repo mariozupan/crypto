@@ -34,7 +34,8 @@ LSTM params:
 |Mean Squared Error|Mean Absolute Error|Coefficient of Determination (R^2)|
 |----|----|----|
 |0.003|0.048|0.603| 
-  
+
+#### Blind Test:  
 Single day prediction from **2017-11-28** to **2017-12-05**:
 9669.40, 10035.91, 9830.83, 9993.55, 10367.92, 10770.16, 10858.19, 11521.98
 
