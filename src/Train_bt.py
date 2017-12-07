@@ -66,7 +66,7 @@ if __name__ == '__main__':
     print(bt_market_info.head())
     print('\nshape: {}'.format(bt_market_info.shape)) 
     print("\n")
-    PlotUtils.plotCoinTrend(bt_market_info, bt_im)
+    PlotUtils.plotCoinTrend(bt_market_info, bt_im, "Bitcoin")
     
     # Feature Eng
     print("Feature ENG")

@@ -18,10 +18,10 @@ class PlotUtils(object):
         '''
         
     @staticmethod
-    def plotCoinTrend(market_info, logo):   
+    def plotCoinTrend(market_info, logo, coin):   
         fig, (ax1, ax2) = plt.subplots(2, 1, gridspec_kw={'height_ratios':[5, 1]}, figsize=(10, 10))   
         ax1.set_ylabel('Closing Price ($)', fontsize=12)
-        ax2.set_ylabel('Volume ($ eht)', fontsize=12)
+        ax2.set_ylabel('Volume ($ '+coin+')', fontsize=12)
         ax2.set_yticks([int('%d000000000' % i) for i in range(10)])
         ax2.set_yticklabels(range(10))
         ax1.set_xticks([datetime.date(i, j, 1) for i in range(2013, 2019) for j in [1, 7]])
@@ -33,7 +33,7 @@ class PlotUtils(object):
         fig.tight_layout()
         fig.figimage(logo, 100, 120, zorder=3, alpha=.5)
         plt.show()
-        fig.savefig("../Output/CoinTrend.png")
+        fig.savefig("../Output/"+coin+"Trend.png")
     
     @staticmethod
     def plotCoinTrainingTest(market_info, split_date, coin_im, target, coin):

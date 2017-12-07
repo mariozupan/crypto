@@ -1,8 +1,8 @@
 
 # An Experiment on Predicting Cryptocurrency prices with LSTM Networks
 
-* This repository does not constitute financial advice and should not be taken as such. 
-While cryptocurrency investments will definitely go up in value forever, they may also go down.
+> This repository does not constitute financial advice and should not be taken as such. 
+> While cryptocurrency investments will definitely go up in value forever, they may also go down.
 
 ## Problem Description
 

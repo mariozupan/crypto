@@ -62,7 +62,7 @@ if __name__ == '__main__':
     print(eth_market_info.head())
     print('\nshape: {}'.format(eth_market_info.shape)) 
     print("\n")
-    PlotUtils.plotCoinTrend(eth_market_info, eth_im)
+    PlotUtils.plotCoinTrend(eth_market_info, eth_im,"Ethereum")
     
     # Feature Eng
     print("Feature ENG")

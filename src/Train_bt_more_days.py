@@ -41,7 +41,7 @@ if __name__ == '__main__':
     end_date = '20171127'
     split_date = '2017-09-25'
     
-    # Our LSTM model will use previous data to predict the next day's closing price of eth. 
+    # Our LSTM model will use previous data to predict the next day's closing price of bitcoin. 
     # We must decide how many previous days it will have access to
     window_len = 20   
     bt_epochs = 100
@@ -78,7 +78,7 @@ if __name__ == '__main__':
     print(bt_market_info.head())
     print('\nshape: {}'.format(bt_market_info.shape)) 
     print("\n")
-    PlotUtils.plotCoinTrend(bt_market_info, bt_im)
+    PlotUtils.plotCoinTrend(bt_market_info, bt_im,"Bitcoin")
     
     # Feature Eng
     print("Feature ENG")
