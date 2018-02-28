@@ -1,0 +1,24 @@
+referenca:
+https://github.com/umbertogriffo/An-Experiment-On-Predicting-Cryptocurrency-Prices-With-LSTM
+
+
+
+pip install Pillow lxml  BeautifulSoup4
+
+
+startaj predikciju sa 
+nohup python ./Predict_bt.py
+
+############################################################
+
+#to run something every 10 minutes
+from datetime import datetime, timedelta
+
+while 1:
+    print 'Run something..'
+
+    dt = datetime.now() + timedelta(hours=1)
+    dt = dt.replace(minute=10)
+
+    while datetime.now() < dt:
+        time.sleep(1)

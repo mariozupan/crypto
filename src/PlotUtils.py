@@ -32,7 +32,7 @@ class PlotUtils(object):
         ax2.bar(market_info['Date'].astype(datetime.datetime).values, market_info['Volume'].values)
         fig.tight_layout()
         fig.figimage(logo, 100, 120, zorder=3, alpha=.5)
-        plt.show()
+        #plt.show()
         fig.savefig("../Output/"+coin+"Trend.png")
     
     @staticmethod
@@ -49,5 +49,5 @@ class PlotUtils(object):
         plt.tight_layout()
         fig.figimage(coin_im.resize((int(coin_im.size[0] * 0.65), int(coin_im.size[1] * 0.65)), Image.ANTIALIAS),
                      350, 40, zorder=3, alpha=.5)
-        plt.show()
+        #plt.show()
         fig.savefig("../Output/" + coin + "CoinTrainTest.png")    

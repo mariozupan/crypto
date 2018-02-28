@@ -126,4 +126,5 @@ if __name__ == '__main__':
             print((((np.transpose(estimator.predict(LSTM_test_inputs)) + 1) * model_data['eth_Close'].values[:-window_len])[0])[0])
             predictions.append((((np.transpose(estimator.predict(LSTM_test_inputs)) + 1) * model_data['eth_Close'].values[:-window_len])[0])[0])
     
+    print(predictions)
     print(pearsonr(predictions, ground_truth))
