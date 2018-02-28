@@ -12,7 +12,7 @@ import time, threading
 
 def transfer():
 
-	session = ftplib.FTP('pascal.hr','pascalpo','Yxw140b*')
+	session = ftplib.FTP('site.com','user','pass')
 	file = open('../Output/cijenaBTC.html','rb')                  # file to send
 	session.storbinary('STOR httpdocs\cijenaBTC.cshtml', file)     # send the file
 
