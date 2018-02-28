@@ -50,4 +50,4 @@ The truth from **2017-11-29** to **2017-12-06**:
 - [2] Automated Bitcoin Trading via Machine Learning Algorithms [here](http://ai2-s2-pdfs.s3.amazonaws.com/e065/3631b4a476abf5276a264f6bbff40b132061.pdf)
 - [3] Predicting cryptocurrency prices with deep learning [here](https://github.com/dashee87/blogScripts/blob/master/Jupyter/2017-11-20-predicting-cryptocurrency-prices-with-deep-learning.ipynb)
 - [4] Multidimensional LSTM Networks to Predict Bitcoin Price [here](http://www.jakob-aungiers.com/articles/a/Multidimensional-LSTM-Networks-to-Predict-Bitcoin-Price)
-- [5] Kaggle Dataset [here](https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory)
+- [5] Kaggle Dataset [here](https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory)# crypto
